@@ -116,7 +116,9 @@ a:visited {
 
 img.collection {
     width:75%
-    /*opacity: 0.5;*/
+    /*opacity: 0.5;
+    border-radius: 5px;
+    */
 }
 
 .thumbnail {
@@ -126,7 +128,10 @@ img.collection {
     background-color: #e0dfd7;
 }
 
-
+footer {
+    background-color: #454749;
+    color: #c4c4c4;
+}
 
 
 
