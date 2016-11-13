@@ -23,13 +23,6 @@ input[type="submit"] {
 	color: 	rgb(45, 70, 82);
 }
 
-.jumbotron {
-    min-height: 600px;
-    background-image: url('#');
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .navbar {
     margin-bottom: 50px;
     border-radius: 0;
@@ -67,7 +60,7 @@ p {
 
 h1.main-title {
     font-size:100px;
-    padding: 10px;
+    padding: 20px;
 }
 
 @media (max-width: 500px) {
@@ -89,16 +82,14 @@ h1.main-title {
     background-color:#F44336;
     color:#fff;
     height:200px;
-    background: url("https://cdn.pixabay.com/photo/2016/06/26/22/36/background-1481487_960_720.jpg")
+    background: url("http://www.beckoningbags.com/wp-content/uploads/2016/02/butcher-paper-background-butcher-paper.jpg")
 }
 
 div.collection {
     width: 100%;
     margin: 30px 0px;
-
 }
 
-}
 
 h3.collection {
     padding: 0px;
