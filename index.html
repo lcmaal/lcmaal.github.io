@@ -1,37 +1,174 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<title>Poem Store</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel='stylesheet' type='text/css' href='style.css'>
+	<script src="js/test.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
 </head>
+<body class="mainpage">
 
-<body>
-	<h1>Poem Store</h1>
-	<div>
-		<h2><a href=richard.html target="_blank">Richard's colection</a></h2>
+<!-- could use modal for logging in http://www.w3schools.com/bootstrap/bootstrap_modal.asp if time
+
+Look at bootstrap templates e.g.
+http://www.w3schools.com/bootstrap/bootstrap_theme_band.asp
+http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_store&stacked=h
+Sam's Sarnies - http://code61.github.io/bootstrap_exercise/
+
+
+Getting online
+https://github.com/cutecat123/cutecat123.github.io
+https://pages.github.com/
+https://guides.github.com/features/pages/
+
+Previous winners
+http://www.codefirstgirls.org.uk/course-competition.html
+
+CSS examples
+http://www.csszengarden.com/
+
+HTML guides
+https://www.wired.com/2010/02/html_cheatsheet/
+http://www.simplehtmlguide.com/cheatsheet.php
+
+CSS guides
+http://www.w3schools.com/css/css_intro.asp
+https://www.impressivewebs.com/css-terms-definitions/
+
+-->
+
+<div class="container-fluid heading-section">
+  	<h1 class="main-title">Poetry Store</h1>
+</div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
+	<div class="container-fluid">
+	    <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	    		<span class="icon-bar"></span>
+	    		<span class="icon-bar"></span>
+	    		<span class="icon-bar"></span>
+	    	</button>
+	    	<a class="navbar-brand" href="index.html">Poem Store</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	    	<ul class="nav navbar-nav">
+	    		<li class="active"><a href="index.html">Home</a></li>
+	    		<li><a href="about.html">About</a></li>
+	    		<li><a href="contact.html">Contact</a></li> 
+	      		<li class="dropdown">
+	      			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Collections <span class="caret"></span></a>
+	      			<ul class="dropdown-menu">
+	      				<li><a href="richard.html">Richard</a></li>
+	        			<li><a href="georgia.html">Georgia</a></li>
+	        			<li><a href="eddie.html">Eddie</a></li>
+	      				<li><a href="maria.html">Maria</a></li>
+	        			<li><a href="abby.html">Abby</a></li>
+	        			<li><a href="joy.html">Joy</a></li>
+	        			<li><a href="rose.html">Rose</a></li>
+	        			<li><a href="lola.html">Lola</a></li>
+	        			<li role="presentation" class="divider"></li>
+	        			<li><a href="addnew.html">Add Yours</a></li>
+	    			</ul>
+	    		</li>
+	    	</ul>
+	    	<ul class="nav navbar-nav navbar-right">
+	    		<li><a href="addnew.html"><span class="glyphicon glyphicon-user"></span> Add Yours</a></li>
+	    		<li><a href="login.html"><span class="glyphicon glyphicon-log-in"> </span> Login</a></li>
+	    	</ul>
+	    </div>
+  	</div>
+</nav>
+
+<div class="container-fluid">	
+	
+	<h2>Browse collections</h2>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Richard</h3>
+				<a href=richard.html><img class="collection" src="http://i2.wp.com/erickimphotography.com/blog/wp-content/uploads/2011/08/henri_cartier_bresson_bicycle.jpg" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Georgia</h3>
+				<a href=georgia.html><img class="collection" src="https://www.moma.org/d/assets/W1siZiIsIjIwMTUvMTAvMTQvMmtuNW5yZzgzdl80MzE1NC5qcGciXSxbInAiLCJjb252ZXJ0IiwiIl1d/43154.jpg?sha=4dbb823cb2ed2f47" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>		
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Eddie</h3>
+				<a href=eddie.html><img class="collection" src="http://i0.wp.com/i1192.photobucket.com/albums/aa322/erickimphotography/HCB/HenriCartierBresson-boat.jpg?resize=660%2C440" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>
 	</div>
-	<div>
-		<h2><a href=georgia.html target="_blank">Georgia's collection</a></h2>
+
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Maria</h3>
+				<a href=maria.html><img class="collection" src="http://images.artnet.com/artwork_images_424158012_456647_henri-cartier-bresson.jpg" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Abby</h3>
+				<a href=abby.html><img class="collection" src="https://s-media-cache-ak0.pinimg.com/originals/58/8d/2b/588d2b50b416ed1834b0af2fd90ee819.jpg" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>		
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Joy</h3>
+				<a href=joy.html><img class="collection" src="https://www.moma.org/interactives/exhibitions/2010/henricartierbresson/assets/photos/000/000/220/220_lg.jpg" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>
 	</div>
-	<div>	
-		<h2><a href=eddie.html target="_blank">Eddie's collection</a></h2>
+
+	<div class="row">
+		<div class="col-sm-2">
+		</div>
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Rose</h3>
+				<a href=rose.html><img class="collection" src="https://s-media-cache-ak0.pinimg.com/originals/fc/5a/e8/fc5ae867eced440d357b3d32b913cae8.jpg" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>		
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Lola</h3>
+				<a href=lola.html><img class="collection" src="http://imgs.abduzeedo.com/files/articles/classic-photography-henri-cartier-bresson/107044i.jpg" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>
+		<div class="col-sm-2">
+		</div>
 	</div>
-	<div>
-		<h2><a href=maria.html target="_blank">Maria's collection</a></h2>
+	<div class="row">
+		<div class="collection-break col-sm-12">
+		</div>
 	</div>
-	<div>
-		<h2><a href=abby.html target="_blank">Abby's collection</a></h2>
+
+	<div class="row">
+		<div class="col-sm-4">
+		</div>
+		<div class="col-sm-4">
+			<div class="thumbnail collection">
+				<h3 class="collection">Add Yours</h3>
+				<a href=addnew.html><img class="collection" src="http://www.jacksonfineart.com/images/artists/large/4744.jpg" class="img-responsive" alt="Image"></a>
+			</div>
+		</div>
+		<div class="col-sm-4">
+		</div>
 	</div>
-	<div>
-		<h2><a href=joy.html target="_blank">Joy's collection</a></h2>
-	</div>
-	<div>
-		<h2><a href=rose.html target="_blank">Rose's collection</a></h2>
-	</div>
-	<div>
-		<h2><a href=lola.html target="_blank">Lola's collection</a></h2>
-	</div>
-	<div>
-		<h2><a href=addnew.html target="_blank">Add yours here</a></h2>
-	</div>
+
+</div>
+
 </body>

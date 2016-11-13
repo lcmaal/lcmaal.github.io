@@ -1,21 +1,15 @@
 body {
-    background-color: lightblue;
-    text-align: center;
-    background: url("https://pixabay.com/static/uploads/photo/2016/08/05/11/00/background-1572052_960_720.jpg");
+    padding-top: 70px;
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
     font-family: helvetica;
+    background-color: #e0dfd7;
+    text-align:center;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-}
-
-p {
-    font-family: helvetica;
-    font-size: 20px;
+body.mainpage {
+    padding-top: 0px;
 }
 
 input {
@@ -28,4 +22,112 @@ input[type="submit"] {
 	background: rgb(91, 140, 164);
 	color: 	rgb(45, 70, 82);
 }
+
+.jumbotron {
+    min-height: 600px;
+    background-image: url('#');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+h1 {
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+h2 {
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h3 {
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    line-height: 55px;
+}
+
+h4  {
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 55px;
+}
+ 
+p {
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h1.main-title {
+    font-size:100px;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+  h1.main-title {
+    font-size: 70px;
+  }
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.heading-section {
+    background-color:#F44336;
+    color:#fff;
+    height:200px;
+    background: url("https://cdn.pixabay.com/photo/2016/06/26/22/36/background-1481487_960_720.jpg")
+}
+
+div.collection {
+    width: 100%;
+    margin: 30px 0px;
+
+}
+
+}
+
+h3.collection {
+    padding: 0px;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+img.collection {
+    width:75%
+    /*opacity: 0.5;*/
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    background-color: #e0dfd7;
+}
+
+
+
+
+
 

@@ -1,11 +1,60 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
 	<title>Lola's Collection</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel='stylesheet' type='text/css' href='style.css'>
+	<script src="js/test.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+	    <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	    		<span class="icon-bar"></span>
+	    		<span class="icon-bar"></span>
+	    		<span class="icon-bar"></span>
+	    	</button>
+	    	<a class="navbar-brand" href="index.html">Poem Store</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	    	<ul class="nav navbar-nav">
+	    		<li><a href="index.html">Home</a></li>
+	    		<li><a href="about.html">About</a></li>
+	    		<li><a href="contact.html">Contact</a></li> 
+	      		<li class="dropdown active">
+	      			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Collections <span class="caret"></span></a>
+	      			<ul class="dropdown-menu">
+	      				<li><a href="richard.html">Richard</a></li>
+	        			<li><a href="georgia.html">Georgia</a></li>
+	        			<li><a href="eddie.html">Eddie</a></li>
+	      				<li><a href="maria.html">Maria</a></li>
+	        			<li><a href="abby.html">Abby</a></li>
+	        			<li><a href="joy.html">Joy</a></li>
+	        			<li><a href="rose.html">Rose</a></li>
+	        			<li class="active"><a href="lola.html">Lola</a></li>
+	        			<li role="presentation" class="divider"></li>
+	        			<li><a href="addnew.html">Add Yours</a></li>
+	    			</ul>
+	    		</li>
+	    	</ul>
+	    	<ul class="nav navbar-nav navbar-right">
+	    		<li><a href="addnew.html"><span class="glyphicon glyphicon-user"></span> Add Yours</a></li>
+	    		<li><a href="login.html"><span class="glyphicon glyphicon-log-in"> </span> Login</a></li>
+	    	</ul>
+	    </div>
+  	</div>
+</nav>
+
+<div class="container">
 	<h1>Lola's Collection</h1>
 	<div>
 		<h2>My Poem</h2>
@@ -16,6 +65,8 @@
 	<div>
 		<h2>Send me a message</h2>
 		<input type="email" placeholder="Your message">
-		<input type="submit">
+		<button type="button" class="btn btn-default">Send</button>
 	</div>
+</div>
 </body>
+</html>
