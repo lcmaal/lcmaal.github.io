@@ -12,6 +12,10 @@ body.mainpage {
     padding-top: 0px;
 }
 
+nav.navbar {
+    z-index: 2;
+}
+
 input {
 	border: 0;
 	padding: 8px;
@@ -31,25 +35,29 @@ input[type="submit"] {
 h1 {
     font-family: 'Allerta', Helvetica, Arial, sans-serif;
     font-size: 50px;
-    line-height: 55px;
+    line-height: 60px;
+    padding: 25px;
 }
 
 h2 {
     font-family: 'Allerta', Helvetica, Arial, sans-serif;
     font-size: 40px;
-    line-height: 55px;
+    line-height: 50px;
+    padding: 20px;
 }
 
 h3 {
     font-family: 'Allerta', Helvetica, Arial, sans-serif;
     font-size: 35px;
-    line-height: 55px;
+    line-height: 45px;
+    padding: 20px;
 }
 
 h4  {
     font-family: 'Allerta', Helvetica, Arial, sans-serif;
     font-size: 30px;
-    line-height: 55px;
+    line-height: 40px;
+    padding:15px;
 }
  
 p {
@@ -60,13 +68,28 @@ p {
 
 h1.main-title {
     font-size:100px;
-    padding: 20px;
+    line-height: 110px;
 }
 
-@media (max-width: 500px) {
-  h1.main-title {
-    font-size: 70px;
-  }
+@media (max-width: 900px) {
+    h1.main-title {
+        font-size: 85px;
+        line-height: 95px;
+    }
+}
+
+@media (max-width: 700px) {
+    h1.main-title {
+        font-size: 65px;
+        line-height: 75px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1.main-title {
+        font-size: 55px;
+        line-height: 65px;
+    }
 }
 
 .affix {
@@ -106,10 +129,10 @@ a:visited {
 }
 
 img.collection {
-    width:75%
-    /*opacity: 0.5;
-    border-radius: 5px;
-    */
+    width:75%;
+    opacity: 0.65;
+    border-radius: 10px;
+    
 }
 
 .thumbnail {
@@ -124,6 +147,15 @@ footer {
     color: #c4c4c4;
 }
 
+div.poem1 {
+    background-color: #f9f8ed;
+    max-width:500px;
+    margin: auto;
+    padding: 20px;
+}
 
+div.message1 {
+    padding: 30px 30px 50px 30px;
+}
 
 
