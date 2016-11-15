@@ -28,7 +28,7 @@ input[type="submit"] {
 }
 
 .navbar {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     border-radius: 0;
 }
 
@@ -158,4 +158,12 @@ div.message1 {
     padding: 30px 30px 50px 30px;
 }
 
+div.indexheader {
+    background-color: #aaa298;
+    padding: 20px;
+}
+
+button.btn {
+    margin: 15px 0px 160px 0px;
+}
 
